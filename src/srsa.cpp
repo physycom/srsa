@@ -22,12 +22,12 @@ typedef unsigned long int Uint;
 
 void usage(const char* progname)
 {
-	cout << "Usage : " << progname << " [MODE] [ARGS] [KEY]" << endl
-		<< "MODE:\tg  = generate key pair\nARGS:\tp q (prime integers)\nKEY:\tkey pair basename (string)\n\n" 
-		<< "MODE:\te  = encrypt\nARGS:\ttext (string)\nKEY:\tpublic key (path)\n\n" 
-		<< "MODE:\tef = encrypt file\nARGS:\tfilename (path)\nKEY:\tpublic key (path)\n\n"
-		<< "MODE:\td  = decrypt\nARGS:\ttext (string)\nKEY:\tprivate key (path)\n\n"  
-		<< "MODE:\tef = decrypt file\nARGS:\tfilename (path)\nKEY:\tprivate key (path)\n\n"  
+	cout << "Usage : " << progname << " [MODE] [ARGS] [KEY]" << endl << endl
+		<< "MODE :\tg  = generate key pair\nARGS :\tp q (prime integers)\nKEY  :\tkey pair basename (string)\n\n" 
+		<< "MODE :\te  = encrypt\nARGS :\ttext (string)\nKEY  :\tpublic key (path)\n\n" 
+		<< "MODE :\tef = encrypt file\nARGS :\tfilename (path)\nKEY  :\tpublic key (path)\n\n"
+		<< "MODE :\td  = decrypt\nARGS :\ttext (string)\nKEY  :\tprivate key (path)\n\n"  
+		<< "MODE :\tdf = decrypt file\nARGS :\tfilename (path)\nKEY  :\tprivate key (path)\n\n"  
 		<< endl;
 }
 
